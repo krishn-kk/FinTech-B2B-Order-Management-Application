@@ -99,7 +99,7 @@ public class Addservlet extends HttpServlet {
 	{
 		String Level=request.getParameter("level");
 		String Order_Id=request.getParameter("ORDER-ID");
-		
+		//check here
 		System.out.println("Level " + Level);
 		System.out.println("Order_ID" + Order_Id);
 		int order_id=-1,level=-1;
